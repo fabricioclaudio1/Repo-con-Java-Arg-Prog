@@ -31,7 +31,7 @@ public class Compras {
 		double entradaDesc= 0; 
 		System.out.println("|Num. Carro: "+carro.getNum());
 		for(ItemCarrito item: cargaItem) {
-			System.out.println(item.getDatosItem()); 
+			System.out.println(item.datosItem()); 
 			carro.sumarMonto(item);
 		}
 		System.out.println("|Total: " + carro.getMontoTotal());
