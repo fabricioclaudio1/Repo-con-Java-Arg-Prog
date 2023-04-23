@@ -3,6 +3,8 @@ package carritodecompras;
 public abstract class Descuento {//Variables o atributos, 
     private double montoDesc;
 	
+    //Sin Metodo Constructor. No necesita un estado inicial?
+    
     public double getMontoDesc() { //Método Getter
     	return montoDesc;
     }

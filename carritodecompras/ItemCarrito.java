@@ -17,7 +17,7 @@ public class ItemCarrito { //Variables, Métodos Constructores, Métodos Getters
 		return montoItem;
 	}
 	
-	public String datosItem() { //Métodos Getter
+	public String datosItem() { //Método
 		return "|Num. Carro: "+carro.getNum()+"|Producto: "+ prod.getNombre()+" |Cantidad: " +cantidad+ " |Precio: "
 				+prod.getprecio()+" |Sub Total: "+ montoItem;
 	}
